@@ -206,12 +206,21 @@ export const resumeConfig: ResumeConfig = {
       contact: { fr: 'CONTACT', en: 'CONTACT' },
       skills: { fr: 'COMPÉTENCES', en: 'SKILLS' },
       experience: { fr: 'EXPÉRIENCES', en: 'EXPERIENCE' },
-      education: { fr: 'FORMATION', en: 'EDUCATION' }
+      education: { fr: 'FORMATION', en: 'EDUCATION' },
+      projects: { fr: 'PROJETS', en: 'PROJECTS' },
+      hobbies: { fr: 'LOISIRS', en: 'HOBBIES' }
     },
     experience: {
       mainTasks: { fr: 'Missions :', en: 'Tasks:' },
       moreTasks: { fr: 'Plus...', en: 'More...' },
-      techEnv: { fr: 'Stack :', en: 'Stack:' }
+      training: { fr: 'Formations :', en: 'Training:' },
+      techEnv: { fr: 'Stack :', en: 'Stack:' },
+      technologies: { fr: 'Technologies', en: 'Technologies' }
+    },
+    actions: {
+      clickHint: { fr: 'Cliquez pour détails', en: 'Click for details' },
+      switchTheme: { fr: 'Thème', en: 'Theme' },
+      downloadPdf: { fr: 'PDF', en: 'PDF' }
     }
   }
 }
