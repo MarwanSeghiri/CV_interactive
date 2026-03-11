@@ -16,7 +16,7 @@ export const resumeConfig: ResumeConfig = {
   },
   seo: {
     title: 'Marwan Seghiri — Développeur Web & 3D',
-    description: 'CV interactif de Marwan Seghiri, étudiant BUT MMI spécialisé en développement web, React, Node.js, 3D Blender, Unity et Unreal Engine.'
+    description: 'CV interactif de Marwan Seghiri, étudiant BUT MMI.'
   },
   languages: {
     default: 'fr',
@@ -37,9 +37,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { fr: 'Français', en: 'French' }, level: { fr: 'Natif', en: 'Native' } },
-        { name: { fr: 'Anglais', en: 'English' }, level: { fr: 'B1', en: 'B1' } },
-        { name: { fr: 'Arabe', en: 'Arabic' }, level: { fr: 'B1', en: 'B1' } },
-        { name: { fr: 'Espagnol', en: 'Spanish' }, level: { fr: 'B1', en: 'B1' } }
+        { name: { fr: 'Anglais', en: 'English' }, level: { fr: 'B1', en: 'B1' } }
       ]
     },
     {
@@ -50,10 +48,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'CSS' },
         { name: 'JavaScript' },
         { name: 'React' },
-        { name: 'TypeScript' },
-        { name: 'Angular' },
-        { name: 'Tailwind CSS' },
-        { name: 'Bootstrap' }
+        { name: 'TypeScript' }
       ]
     },
     {
@@ -62,55 +57,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'Node.js' },
         { name: 'PHP' },
-        { name: 'Python' },
-        { name: 'Java' },
-        { name: 'SQL' },
-        { name: 'PostgreSQL' },
-        { name: 'MySQL' },
-        { name: 'WordPress' }
-      ]
-    },
-    {
-      title: { fr: 'DevOps', en: 'DevOps' },
-      type: 'badges',
-      items: [
-        { name: 'Git' },
-        { name: 'Docker' },
-        { name: 'Linux' },
-        { name: 'Windows' }
-      ]
-    },
-    {
-      title: { fr: 'GameDev / 3D', en: 'GameDev / 3D' },
-      type: 'badges',
-      items: [
-        { name: 'Unity' },
-        { name: 'Unreal Engine' },
-        { name: 'Blender' }
-      ]
-    },
-    {
-      title: { fr: 'Langages Système', en: 'System Languages' },
-      type: 'badges',
-      items: [
-        { name: 'C' },
-        { name: 'C#' }
-      ]
-    },
-    {
-      title: { fr: 'Design', en: 'Design' },
-      type: 'badges',
-      items: [
-        { name: 'Photoshop' },
-        { name: 'InDesign' },
-        { name: 'Canva' }
-      ]
-    },
-    {
-      title: { fr: 'Soft Skills', en: 'Soft Skills' },
-      type: 'text',
-      items: [
-        { name: { fr: 'À l\'écoute, Patient, Sérieux, Travail d\'équipe', en: 'Good listener, Patient, Serious, Team player' } }
+        { name: 'Python' }
       ]
     }
   ],
@@ -118,6 +65,62 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'laposte',
       company: { fr: 'La Poste', en: 'La Poste' },
-      role: { fr: 'Agent de distribution - Colis recommandés', en: 'Delivery Agent - Registered Mail' },
-      type: { fr: 'CDI Job étudiant', en: 'Part-time CDI Student Job' },
-      period: { fr: 'Samedis
+      role: { fr: 'Agent de distribution', en: 'Delivery Agent' },
+      type: { fr: 'CDI Job étudiant', en: 'Part-time Student Job' },
+      period: { fr: 'Samedis matin', en: 'Saturday mornings' },
+      description: {
+        fr: 'Distribution colis recommandés.',
+        en: 'Registered mail delivery.'
+      },
+      techs: [],
+      details: {
+        context: {
+          fr: 'Job étudiant CDI.',
+          en: 'Student part-time job.'
+        },
+        env: {
+          fr: 'Service client',
+          en: 'Customer service'
+        }
+      }
+    },
+    {
+      id: 'easytech',
+      company: { fr: 'Easy Tech', en: 'Easy Tech' },
+      role: { fr: 'Stagiaire Développement Web', en: 'Web Development Intern' },
+      type: { fr: 'Stage', en: 'Internship' },
+      period: { fr: '2024-2025', en: '2024-2025' },
+      description: {
+        fr: 'Développement sites web.',
+        en: 'Web development.'
+      },
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      details: {
+        context: {
+          fr: 'Collaboration équipe.',
+          en: 'Team collaboration.'
+        },
+        env: {
+          fr: 'HTML/CSS/JS',
+          en: 'HTML/CSS/JS'
+        }
+      }
+    }
+  ],
+  education: [
+    {
+      school: { fr: 'IUT Meaux', en: 'IUT Meaux' },
+      degree: { fr: 'BUT MMI', en: 'BUT MMI' },
+      period: '2023-2026'
+    }
+  ],
+  theme: { preset: 'ocean' },
+  labels: {
+    sections: {
+      contact: { fr: 'CONTACT', en: 'CONTACT' },
+      skills: { fr: 'COMPÉTENCES', en: 'SKILLS' },
+      experience: { fr: 'EXPÉRIENCES', en: 'EXPERIENCE' },
+      education: { fr: 'FORMATION', en: 'EDUCATION' }
+    },
+    experience: {
+      mainTasks: {
