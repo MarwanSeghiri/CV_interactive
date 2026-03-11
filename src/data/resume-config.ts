@@ -16,7 +16,7 @@ export const resumeConfig: ResumeConfig = {
   },
   seo: {
     title: 'Marwan Seghiri — Full Stack Developer',
-    description: 'Stack48 (04-08/2026), EasyTech (04-06/2026), React, Docker, Unity'
+    description: 'Stack48, EasyTech, PSG, Conservatoires, BAFA - React, Docker, Unity'
   },
   languages: {
     default: 'fr',
@@ -80,34 +80,18 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Stage', en: 'Internship' },
       period: { fr: '04/2026 - 08/2026', en: '04/2026 - 08/2026' },
       description: {
-        fr: 'Full stack complet: maquette → charte → API → BDD → Docker → domaine.',
+        fr: 'Full stack: maquette → charte → API → BDD → Docker → domaine.',
         en: 'Full stack: wireframe → design → API → DB → Docker → domain.'
       },
       techs: ['React', 'Node.js', 'Docker', 'PostgreSQL'],
       isHighlighted: true,
       details: {
-        context: {
-          fr: 'Développement end-to-end application web.',
-          en: 'End-to-end web app development.'
-        },
+        context: { fr: 'End-to-end web app.', en: 'End-to-end web app.' },
         tasks: {
-          fr: [
-            'Maquette & charte graphique',
-            'Frontend React/TS',
-            'API REST PostgreSQL',
-            'Docker + domaine'
-          ],
-          en: [
-            'Wireframe & design',
-            'React/TS frontend',
-            'REST API PostgreSQL',
-            'Docker + domain'
-          ]
+          fr: ['Maquette', 'React/TS', 'API PostgreSQL', 'Docker'],
+          en: ['Wireframe', 'React/TS', 'PostgreSQL API', 'Docker']
         },
-        env: {
-          fr: 'React/Node.js/PostgreSQL/Docker',
-          en: 'React/Node.js/PostgreSQL/Docker'
-        }
+        env: { fr: 'React/Node/Docker', en: 'React/Node/Docker' }
       }
     },
     {
@@ -117,34 +101,47 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Stage', en: 'Internship' },
       period: { fr: '04/2026 - 06/2026', en: '04/2026 - 06/2026' },
       description: {
-        fr: '5+ sites full stack: maquette, code, API, hébergement.',
-        en: '5+ full stack sites: design, code, API, hosting.'
+        fr: '5+ sites full stack: maquette, API, hébergement.',
+        en: '5+ full stack sites: design, API, hosting.'
       },
       techs: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
       isHighlighted: true,
       details: {
-        context: {
-          fr: 'Collaboration équipe, respect specs.',
-          en: 'Team collaboration, specs compliance.'
-        },
-        tasks: {
-          fr: [
-            'Maquettes responsive',
-            'Backend PHP/MySQL',
-            'Charte graphique',
-            'Hébergement'
-          ],
-          en: [
-            'Responsive wireframes',
-            'PHP/MySQL backend',
-            'Design system',
-            'Hosting'
-          ]
-        },
-        env: {
-          fr: 'HTML/CSS/JS/PHP/MySQL',
-          en: 'HTML/CSS/JS/PHP/MySQL'
-        }
+        context: { fr: 'Collaboration équipe.', en: 'Team collaboration.' },
+        tasks: { fr: ['Maquettes', 'PHP/MySQL', 'Hébergement'], en: ['Design', 'PHP/MySQL', 'Hosting'] },
+        env: { fr: 'HTML/CSS/JS/PHP/MySQL', en: 'HTML/CSS/JS/PHP/MySQL' }
+      }
+    },
+    {
+      id: 'conservatoires',
+      company: { fr: 'Conservatoires PVM', en: 'PVM Conservatories' },
+      role: { fr: 'Agent d\'accueil & services', en: 'Welcome & Services Agent' },
+      type: { fr: 'CDD', en: 'Fixed-term' },
+      period: { fr: '09/2024 - En cours', en: '09/2024 - Ongoing' },
+      description: {
+        fr: 'Accueil, préparation salles, gestion sécurité.',
+        en: 'Welcome, room prep, security management.'
+      },
+      techs: [],
+      details: {
+        context: { fr: 'Réseau conservatoires Chelles/Brou...', en: 'Conservatories network.' },
+        env: { fr: 'Microsoft Office', en: 'Microsoft Office' }
+      }
+    },
+    {
+      id: 'psg',
+      company: { fr: 'PSG - Parc des Princes', en: 'PSG - Parc des Princes' },
+      role: { fr: 'Agent d\'accueil', en: 'Welcome Agent' },
+      type: { fr: 'CDD', en: 'Fixed-term' },
+      period: { fr: '09/2024 - En cours', en: '09/2024 - Ongoing' },
+      description: {
+        fr: 'Accueil supporters, gestion flux.',
+        en: 'Supporters welcome, crowd management.'
+      },
+      techs: [],
+      details: {
+        context: { fr: 'Événements PSG.', en: 'PSG events.' },
+        env: { fr: 'Gestion foules', en: 'Crowd management' }
       }
     },
     {
@@ -154,19 +151,13 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Stage', en: 'Internship' },
       period: { fr: '2023', en: '2023' },
       description: {
-        fr: 'Affiches, design maillots, photographe officiel.',
-        en: 'Posters, sportswear design, official photographer.'
+        fr: 'Affiches, maillots, photographe officiel.',
+        en: 'Posters, sportswear, official photographer.'
       },
-      techs: ['Photoshop', 'InDesign', 'Canva'],
+      techs: ['Photoshop', 'InDesign'],
       details: {
-        context: {
-          fr: 'Pôle communication mairie.',
-          en: 'Town hall communication.'
-        },
-        env: {
-          fr: 'Adobe Suite/Canva',
-          en: 'Adobe Suite/Canva'
-        }
+        context: { fr: 'Pôle communication.', en: 'Communication dept.' },
+        env: { fr: 'Adobe Suite', en: 'Adobe Suite' }
       }
     },
     {
@@ -175,29 +166,30 @@ export const resumeConfig: ResumeConfig = {
       role: { fr: 'Agent Distribution', en: 'Delivery Agent' },
       type: { fr: 'CDI Job étudiant', en: 'Student Job' },
       period: { fr: 'Samedis - En cours', en: 'Saturdays - Ongoing' },
-      description: {
-        fr: 'Colis recommandés.',
-        en: 'Registered mail.'
-      },
+      description: { fr: 'Colis recommandés.', en: 'Registered mail.' },
       techs: [],
       details: {
-        context: {
-          fr: 'Job étudiant fiable.',
-          en: 'Reliable student job.'
-        },
-        env: {
-          fr: 'Logistique',
-          en: 'Logistics'
-        }
+        context: { fr: 'Job étudiant fiable.', en: 'Reliable student job.' },
+        env: { fr: 'Logistique', en: 'Logistics' }
       }
     }
   ],
   education: [
     {
       school: { fr: 'IUT Meaux - Univ. Gustave Eiffel', en: 'IUT Meaux - Gustave Eiffel Univ.' },
-      degree: { fr: 'BUT MMI', en: 'BUT MMI' },
+      degree: { fr: 'BUT MMI (Métiers du Multimédia et Internet)', en: 'BUT MMI (Multimedia & Internet Professions)' },
       specialty: { fr: 'Web Dev & 3D', en: 'Web Dev & 3D' },
       period: '2023-2026'
+    },
+    {
+      school: { fr: 'Lycée Alfred Nobel', en: 'Alfred Nobel High School' },
+      degree: { fr: 'Baccalauréat STMG Gestion-Finance', en: 'Bac STMG Management-Finance' },
+      period: '2021-2023'
+    },
+    {
+      school: { fr: 'Afocal', en: 'Afocal' },
+      degree: { fr: 'BAFA Animateur ACM', en: 'BAFA Youth Animator' },
+      period: '2023'
     }
   ],
   theme: { preset: 'ocean' },
@@ -220,7 +212,7 @@ export const resumeConfig: ResumeConfig = {
     actions: {
       clickHint: { fr: 'Cliquez pour détails', en: 'Click for details' },
       switchTheme: { fr: 'Thème', en: 'Theme' },
-      downloadPdf: { fr: 'PDF', en: 'PDF' }
+      downloadPdf: { fr: 'Télécharger PDF', en: 'Download PDF' }
     }
   }
 }
